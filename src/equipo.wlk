@@ -1,4 +1,4 @@
 object equipo {
-	//completar
+	
 	
 }
