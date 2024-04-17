@@ -7,6 +7,8 @@ object martin {
 	var actividadDelDia = 0
 	var despensa = vasoDeAgua
 	
+	method actividadDelDia() = actividadDelDia
+	method tieneHambre() = tieneHambre
 	method energia() = energia
 	method esFeliz() {
 		return energia > 80 || actividadDelDia >= 2 && not tieneHambre

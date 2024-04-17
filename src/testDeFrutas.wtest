@@ -1,11 +1,12 @@
 import frutas.*
 
-test "la manzana verde aporta 7 de energia" {
+test "martin esta feliz al iniciar" {
 
 	//assert.that(true)
 	//assert.notThat(false)
 	//assert.equals(valor, objeto.mensajeDeConsulta(1))
 	
-	assert.equals(7,manzana.energiaQueAporta()
-	)
+	//assert.equals(7,manzana.energiaQueAporta()
+	//)
+	assert.that(martin.esFeliz())
 }
